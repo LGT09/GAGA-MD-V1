@@ -4,8 +4,8 @@
   "description": "A WhatsApp Bot Created By GAGA",
   "main": "index.js",
   "engines": {
-    "node": ">=20.x",
-    "npm": ">=10.x"
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
   },
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name GAGA-MD",
@@ -13,7 +13,7 @@
     "restart": "pm2 restart GAGA-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.17.18",
+    "@whiskeysockets/baileys": "^6.17.18",
     "@adiwajshing/keyed-db": "latest",
     "@dark-yasiya/yt-dl.js": "latest",
     "@ffmpeg-installer/ffmpeg": "1.1.0",
@@ -21,15 +21,12 @@
     "pino": "10.1.1",
     "pm2": "latest",
     "express": "5.2.1",
-    "buffer": "latest",
     "moment-timezone": "latest",
     "axios": "latest",
     "file_size_url": "latest",
     "fs-extra": "latest",
-    "fs": "0.0.1-security",
-    "ffmpeg": "latest",
     "file-type": "latest",
-    "better-sqlite3": "npm:libsql@latest",
+    "better-sqlite3": "latest",
     "fluent-ffmpeg": "latest",
     "form-data": "latest",
     "google-tts-api": "latest",
@@ -37,7 +34,6 @@
     "node-fetch": "latest",
     "megajs": "latest",
     "wa-sticker-formatter": "latest",
-    "path": "latest",
     "dotenv": "latest",
     "mongoose": "latest",
     "jimp": "latest",
